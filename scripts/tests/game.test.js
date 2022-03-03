@@ -10,7 +10,6 @@ beforeAll(() => {
     document.open();
     document.write(fileContents);
     document.close();
-
 });
 
 describe("game object contains correct keys", () => {
@@ -32,7 +31,6 @@ describe("game object contains correct keys", () => {
 });
 
 describe(("newGame works correctly"), () => {
-
     beforeAll(() => {
         game.score = "42";
         game.currentGame = ["button1", "button2"];
@@ -55,7 +53,6 @@ describe(("newGame works correctly"), () => {
 });
 
 describe("gameplay works correctly", () => {
-
     beforeEach(() => {
         game.score = 0;
         game.currentGame = [];

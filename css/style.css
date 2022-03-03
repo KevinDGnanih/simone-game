@@ -69,6 +69,7 @@ h2 {
 }
 
 .button {
+    cursor: pointer;
     background-color: #FF5A60;
     color: #FFF;
     border: 0;
